@@ -1,0 +1,8 @@
+title: Yujian Wiki 已审核键盘来源
+description: 从 Yujian Wiki 02_已审核逐字保存的键盘资料。该层只保存原文、原路径、审核状态与 SHA-256，不进行分析或改写。
+tags:
+  - source
+  - immutable
+  - layer-ingest
+  - yujian-reviewed
+  - keyboard
