@@ -56,3 +56,10 @@
 
 autoSync:
   default: true
+contentRules:
+  markdownlint:
+    enabled: true
+  frontmatter:
+    enabled: true
+  okf:
+    enabled: true
