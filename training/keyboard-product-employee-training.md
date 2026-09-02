@@ -40,7 +40,7 @@ tags:
 <button data-id="goal">01 培训目标</button><button data-id="map">02 知识地图</button>
 <button data-id="dimensions">03 八维读产品</button><button data-id="examples">04 产品示例</button>
 <button data-id="consult">05 场景选型</button><button data-id="evidence">06 答疑口径</button>
-<button data-id="quiz">07 随堂测验</button><button data-id="finish">08 上岗清单</button>
+<button data-id="toolkit">07 复用工具包</button><button data-id="quiz">08 随堂测验</button><button data-id="finish">09 上岗清单</button>
 </nav>
 <p class="side-note">内部资料 · 以知识库当前已审核产品页为依据。价格、固件、在售状态等动态信息需实时复核。</p>
 </aside>
@@ -116,6 +116,74 @@ tags:
 <div class="rule danger"><strong>不要这样做</strong><ul><li>根据 Max、Pro、HE 等后缀自动推断全部能力。</li><li>把“最高回报率”直接表述为“零延迟”。</li><li>把某一连接模式的规格扩展到所有模式。</li><li>把“支持热插拔”说成兼容所有轴体。</li><li>资料缺失时给出看似合理的确定答案。</li></ul></div>
 </div>
 <div class="card" style="margin-top:18px"><h3>信息不足时的标准表达</h3><p>“当前知识库没有足够证据确认该项信息。我已经确认到【已知内容】，但【缺失字段/动态状态】需要向对应负责人或最新官方资料复核后再答复。”</p></div>
+</section>
+
+<section id="toolkit">
+<span class="tag">REUSABLE TOOLKIT</span><h2>可直接复用的产品知识与工作规律</h2>
+<p class="section-lead">以下内容可以直接用于培训、客服答疑、销售选型、产品对比和新品资料整理。括号中的覆盖数来自当前 269 份产品档案的关键词统计，只表示资料覆盖情况，不代表全部产品能力。</p>
+
+<div class="grid2">
+<div class="card"><div class="label">规律 01 · 产品表达</div><h3>一句话产品公式</h3><p><b>【型号】是一款面向【目标用户/场景】的【配列 + 键盘类型】，核心特点是【连接】、【关键性能】和【结构/材质】；需要注意【兼容或条件限制】。</b></p><p>这个公式同时适合产品介绍、客服首答、渠道培训和新品资料摘要。</p></div>
+<div class="card"><div class="label">规律 02 · 对比原则</div><h3>同字段比较，不用卖点互撞</h3><p>任何两款产品都按同一顺序比较：<b>配列 → 轴体/触发 → 连接 → 分模式性能 → 结构材质 → 键帽灯光 → 软件系统 → 供电</b>。</p><p>缺失字段写“资料未确认”，不能用另一款产品的字段补齐。</p></div>
+</div>
+
+<h3 style="margin-top:30px">需求—字段映射表</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>员工听到的需求</th><th>必须查询的字段</th><th>可以形成的结论</th><th>不能直接推出</th></tr></thead>
+<tbody>
+<tr><td>“我要打游戏，延迟要低”</td><td>连接模式、各模式回报率、触发特性、无冲</td><td>哪种模式提供标称高回报率、是否有快速触发</td><td>不能仅凭回报率承诺端到端延迟</td></tr>
+<tr><td>“我要无线办公，多台电脑切换”</td><td>Bluetooth、2.4 GHz、设备切换数量、系统兼容</td><td>连接组合是否满足设备数量与平台</td><td>不能把“无线”自动等同于三模</td></tr>
+<tr><td>“我想以后换轴”</td><td>热插拔、轴体类型、3/5 针、磁轴兼容范围</td><td>明确可兼容的轴体范围</td><td>不能把热插拔说成兼容所有轴</td></tr>
+<tr><td>“桌面小，但方向键要保留”</td><td>配列、尺寸、实际按键布局</td><td>筛选紧凑且保留必要键位的型号</td><td>不能只按 65%/75% 标签判断全部键位</td></tr>
+<tr><td>“续航越长越好”</td><td>电池容量、灯光状态、连接模式、实验说明</td><td>在相同条件下比较标称续航</td><td>不能跨测试条件直接比较小时数</td></tr>
+<tr><td>“我要改键和宏”</td><td>软件平台、QMK/VIA、支持功能、系统要求</td><td>确认是否提供对应自定义能力</td><td>不能由“支持软件”推断每项功能都支持</td></tr>
+</tbody></table></div>
+
+<div class="grid3" style="margin-top:18px">
+<div class="metric"><strong>172</strong><span>份产品档案出现 Bluetooth 信息</span></div>
+<div class="metric"><strong>142</strong><span>份产品档案出现热插拔信息</span></div>
+<div class="metric"><strong>64</strong><span>份产品档案出现 QMK/VIA 信息</span></div>
+<div class="metric"><strong>41</strong><span>份档案记录特定三模连接写法</span></div>
+<div class="metric"><strong>26</strong><span>份产品档案出现快速触发信息</span></div>
+<div class="metric"><strong>180</strong><span>份产品档案提供电池容量字段</span></div>
+</div>
+<p style="font-size:12px;color:var(--muted-foreground)">统计口径：当前产品页关键词文件覆盖数。它说明常见查询字段，也提醒员工并非每个产品都拥有这些能力。</p>
+
+<h3 style="margin-top:30px">四套标准答疑句式</h3>
+<div class="grid2">
+<div class="card"><div class="label">确认型</div><p>“知识库记录【型号】在【连接/模式】下的【字段】为【完整值 + 单位】；对应条件是【限制/测试条件】。”</p></div>
+<div class="card"><div class="label">推荐型</div><p>“基于你需要的【场景】和【硬约束】，优先看【型号】；它在【已核验字段】上匹配。需要注意【限制条件】。”</p></div>
+<div class="card"><div class="label">对比型</div><p>“两款的关键差异在【字段 A/B/C】：【型号甲】适合【场景】，而【型号乙】更适合【场景】。其余动态信息需再确认。”</p></div>
+<div class="card"><div class="label">缺证型</div><p>“当前资料只能确认【已知内容】，不足以确认【缺失字段】。我会通过【来源/负责人】复核后再给确定答复。”</p></div>
+</div>
+
+<h3 style="margin-top:30px">可复制的产品对比卡</h3>
+<div class="card">
+<pre style="white-space:pre-wrap;margin:0;color:var(--foreground);font:13px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace">对比目的：
+用户场景：
+硬约束：
+
+| 字段 | 型号 A | 型号 B | 结论/影响 |
+| 配列与尺寸 |  |  |  |
+| 轴体与触发 |  |  |  |
+| 连接方式 |  |  |  |
+| 分模式性能 |  |  |  |
+| 结构与材质 |  |  |  |
+| 键帽与灯光 |  |  |  |
+| 软件与系统 |  |  |  |
+| 电池与续航条件 |  |  |  |
+
+推荐结论：
+限制与待确认项：
+证据链接：</pre>
+</div>
+
+<h3 style="margin-top:30px">30 秒发布前检查</h3>
+<div class="grid3">
+<div class="rule"><strong>实体</strong><p>型号是否准确？有没有混入同系列另一款产品？</p></div>
+<div class="rule"><strong>完整值</strong><p>单位、连接模式、灯光状态、兼容范围是否保留？</p></div>
+<div class="rule"><strong>证据</strong><p>结论能否回到产品页和已审核来源？动态信息是否复核？</p></div>
+</div>
 </section>
 
 <section id="quiz">

@@ -30,3 +30,11 @@ Append-only audit trail. Add one dated entry per turn that creates, edits, or re
 - Sources used: [81 Pro 产品档案](./articles/products/k001-81-pro.md), [Q1 HE 产品档案](./articles/products/k178-q1-he.md), [V8 Max 产品档案](./articles/products/k269-v8-max.md)
 - Validation: 全项目 540 份文档通过 markdownlint、frontmatter、OKF 与链接审计，0 error / 0 warning。
 - Open follow-ups: 可按岗位拆分销售、客服、产品与渠道版本，并补充公司制度、认证及售后流程。
+
+## 2026-09-02: 补充可直接复用的产品知识规律
+
+- 将培训资料从方法说明扩展为员工可直接复用的工具包。
+- 新增一句话产品公式、固定八维对比顺序、需求—字段映射、四类标准答疑句式、产品对比卡和 30 秒发布前检查。
+- 增加当前产品档案的关键词覆盖统计，明确统计只表示资料覆盖、不能直接视作全部产品能力。
+- Files touched: [键盘产品知识与内部答疑训练营](./training/keyboard-product-employee-training.md)
+- Open follow-ups: 可继续按销售、客服、产品经理等岗位拆分练习题与真实业务案例。
