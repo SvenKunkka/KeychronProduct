@@ -60,7 +60,7 @@ tags:
 
 | 字段 | 官方值 | 来源 |
 | --- | --- | --- |
-| 配色 | White Backlight、RGB Backlight、RGB Backlight - B、Q2 \/ Q2 Pro \/ Q2 Max \/ Q2 HE、Q3 Pro Special Edition、Q7、Q9、Q11、Q12 \/  | [已审核来源](../../external-sources/yujian-reviewed/k116-k4-pro-source.md) |
+| 配色 | White Backlight、RGB Backlight、RGB Backlight - B、Q2 \/ Q2 Pro \/ Q2 Max \/ Q2 HE、Q3 Pro Special Edition、Q7、Q9、Q11、Q12 \/ | [已审核来源](../../external-sources/yujian-reviewed/k116-k4-pro-source.md) |
 | 价格 | $69.99 | [已审核来源](../../external-sources/yujian-reviewed/k116-k4-pro-source.md) |
 | 按键数量 | 100 (96%) | [已审核来源](../../external-sources/yujian-reviewed/k116-k4-pro-source.md) |
 | 轴体朝向 | South-facing | [已审核来源](../../external-sources/yujian-reviewed/k116-k4-pro-source.md) |
